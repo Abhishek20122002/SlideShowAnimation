@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: rgba(27, 31, 34, 0.85);
+        }
+        h1{
+            font-size: 2.1rem;
+            line-height: 1.4;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .maindiv{
+            width: 70%;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url(https://media.istockphoto.com/id/1441418762/photo/lavender-field-close-up-flower.jpg?b=1&s=170667a&w=0&k=20&c=TvGc1rkUlhiw_55y6g1WJm0LVLlvOoDni2nhAsyWk8Y=);
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider 15s infinite linear;
+        }
+
+        @keyframes slider{
+            10%{
+                background-image: url(https://media.istockphoto.com/id/1368242749/photo/the-knob-in-falmouth-on-cape-cod.jpg?b=1&s=170667a&w=0&k=20&c=w2qta-WTMySU401SNmR1hh8EtXkxmGTtqyahAVzKSks=);
+            }
+            25%{
+                background-image: url(https://media.istockphoto.com/id/1458782106/photo/scenic-aerial-view-of-the-mountain-landscape-with-a-forest-and-the-crystal-blue-river-in.jpg?b=1&s=170667a&w=0&k=20&c=enOEV-PXzYGODA36Cd-1-90gukicyKLX5CXoTYsSPSc=);
+            }
+            50%{
+                background-image: url(https://media.istockphoto.com/id/1431911416/photo/magnolia-blossom.jpg?b=1&s=170667a&w=0&k=20&c=O14u-EOXk5GzXhXHZWZPDR_EnbalbOQwI9DvZBSorYY=);
+            }
+            75%{
+                background-image: url(https://media.istockphoto.com/id/1427249962/photo/tropical-leaves-abstract-green-leaf-texture-in-garden-nature-background.jpg?b=1&s=170667a&w=0&k=20&c=40KcV7mbAQWihuO0At8GSOTIKp-TvIoHGIhurHBeUq0=);
+            }
+            /* 100%{
+                background-image: url(Image/pexels-photo-1402787.jpeg);
+            } */
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>CSS SLIDER ANIMATION</h1>
+    <div class="maindiv">
+
+    </div>
+    
+</body>
+</html>
